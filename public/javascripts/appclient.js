@@ -2,7 +2,7 @@ var myapp = (function(){
     var seq = 0;
     var socket = io.connect();
     var avgRtt = 0;
-    var filesize = 128000;
+    var filesize = 12800;
 
     //the function that starts throughput test (sends a file, waits for response)
     var start_throughput = function(){
