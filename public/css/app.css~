@@ -24,4 +24,10 @@ padding-right:20;
 }
 .spacing{
 padding:5;
-{
+}
+#homeimage{
+background-image:url('watch.gif');
+background-size: cover;
+height: 100%;
+width: 30%;
+}
