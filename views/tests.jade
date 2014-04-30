@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    .container
+        div#testcontrol
+            h3 Run tests
+            p
+                a(href="/") Home
+
+            button#startping Latency Test
+            .spacing
+            button#startthroughput Throughput Test
+        div#status.verticalline

@@ -11,6 +11,6 @@ html
     #topnav.navbar
         #header
             span#hello Hello, #{user}
-            a#psych(href="#") Account Settings
+            a(href="#") Account Settings
 
     block content

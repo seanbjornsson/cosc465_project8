@@ -31,7 +31,6 @@ app.configure(function() {
 var perftests = require('./perftests.js');
 app.io.route('ping', perftests.ping);
 app.io.route('rtt_result', userdb.add_latency_data);
-app.io.route('throughput_data', perftests.throughput);
 
 // set up "normal" http routes
 var views = require('./views.js');
